@@ -6,7 +6,7 @@ A list of my commonly used Git commands_
 
 | Command | Description |
 | ------- | ----------- |
-| `git config --global user.name "Sam Smith"` <br> `git config --global user.email sam@example.com` <br/> | Configure the author name and email address to be used with your commits. |
+| `git config --global user.name "Sam Smith"` <br> `git config --global user.email sam@example.com` <br/> | Configure the author name and email address <br>to be used with your commits. |
 | `git remote -v` | List all currently configured remote repositories |
 
 ### Getting & Creating Projects
@@ -22,7 +22,7 @@ A list of my commonly used Git commands_
 | ------- | ----------- |
 | `git status` | Check status |
 | `git add [file-name.txt]` | Add a file to the staging area |
-| `git add -A` | Commit any files you've added <br> with git add, and also commit any files you've changed since then |
+| `git add -A` | Commit any files you've added <br> with git add, and also commit any <br>files you've changed since then |
 | `git commit -m "[commit message]"` | Commit changes |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
 
@@ -77,7 +77,7 @@ A list of my commonly used Git commands_
 
 | Command | Description |
 | ------- | ----------- |
-| `git tag 1.0.0 <commitID>` | You can use tagging to mark a significant changeset, such as a release |
+| `git tag 1.0.0 <commitID>` | You can use tagging to mark a significant<br> changeset, such as a release |
 | `git push --tags origin` | Push all tags to remote repository |
 
 ### Search
