@@ -22,7 +22,7 @@ A list of my commonly used Git commands_
 | ------- | ----------- |
 | `git status` | Check status |
 | `git add [file-name.txt]` | Add a file to the staging area |
-| `git add -A` | Commit any files you've added with git add, and also commit any files you've changed since then |
+| `git add -A` | Commit any files you've added <br> with git add, and also commit any files you've changed since then |
 | `git commit -m "[commit message]"` | Commit changes |
 | `git rm -r [file-name.txt]` | Remove a file (or folder) |
 
