@@ -1,13 +1,13 @@
 Git Commands
 ============
-A list of my commonly used Git commands_
+A list of my commonly used Git commands
 
 ### Tell Git Who You Are
 
 | Command | Description |
 | ------- | ----------- |
-| `git config --global user.name "Sam Smith"` <br> `git config --global user.email sam@example.com` <br/> | Configure the author name and email address <br>to be used with your commits. |
-| `git remote -v` | List all currently configured remote repositories |
+| `git config --global user.name "Sam Smith"` <br> `git config --global "user.email sam@example.com"` | Configure the author name <br>and email address to be used <br>with your commits. |
+| `git remote -v` | List all currently configured<br> remote repositories |
 
 ### Getting & Creating Projects
 
