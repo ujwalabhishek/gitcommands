@@ -67,18 +67,21 @@ A list of my commonly used Git commands_
 | `git diff` <br> `git diff --base <filename>` <br> `git diff [source branch] [target branch]` | Preview changes before merging |
 
 ### Undo Local Changes
+
 | Command | Description |
 | ------- | ----------- |
 | `git checkout -- <filename>` | If you mess up, you can replace the changes in your working tree with the last content in head: <br> Changes already added to the index, as well as new files, will be kept.|
 | `git fetch origin` <br> `git reset --hard origin/master` | Instead, to drop all your local changes and commits, fetch the latest history from the server and point your local master branch at it, do this. |
 
 ### Tag
+
 | Command | Description |
 | ------- | ----------- |
 | `git tag 1.0.0 <commitID>` | You can use tagging to mark a significant changeset, such as a release |
 | `git push --tags origin` | Push all tags to remote repository |
 
 ### Search
+
 | Command | Description |
 | ------- | ----------- |
 | `git grep "foo()"` | Search the working directory for foo():|
