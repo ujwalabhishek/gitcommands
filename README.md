@@ -21,9 +21,9 @@
 || Delete a branch on your remote repository: | `git push origin :<branchname>` |
 | **[Update from the remote repository](https://www.atlassian.com/git/tutorials/syncing)** | Fetch and merge changes on the remote server to your working directory: | `git pull` |
 || To merge a different branch into your active branch: | `git merge <branchname>` |
-|| View all the merge conflicts:View the conflicts against the base file:Preview changes, before merging: | `git diff` , `git diff --base <filename>`, `git diff <sourcebranch> <targetbranch&>` |
+|| View all the merge conflicts:View the conflicts against the base file:Preview changes, before merging: | `git diff` <br> `git diff --base <filename>`<br> `git diff <sourcebranch> <targetbranch>` |
 || After you have manually resolved any conflicts, you mark the changed file: | `git add <filename>`|
-| **Tags** | You can use tagging to mark a significant changeset, such as a release: |`git tag 1.0.0 &lt;commitID&gt;` |
+| **Tags** | You can use tagging to mark a significant changeset, such as a release: |`git tag 1.0.0 commitID` |
 || CommitId is the leading characters of the changeset ID, up to 10, but must be unique. Get the ID using: |`git log`  |
 || Push all tags to remote repository: |`git push --tags origin`  |
 | **[Undo local changes](https://www.atlassian.com/git/tutorials/undoing-changes)** | If you mess up, you can replace the changes in your working tree with the last content in head:Changes already added to the index, as well as new files, will be kept. | `git checkout -- <filename>` |
