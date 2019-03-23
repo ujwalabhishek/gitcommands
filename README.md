@@ -1,6 +1,6 @@
 | Git task | Notes | Git commands |
 |----------|-------|--------------|
-| **[Tell Git who you are](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config)** | Configure the author name and email address to be used with your commits.Note that Git [strips some characters](http://stackoverflow.com/questions/26159274/is-it-possible-to-have-a-trailing-period-in-user-name-in-git/26219423#26219423)(for example trailing periods) from `user.name`. | `git config --global user.name "Sam Smith"` `git config&#xA0;--global&#xA0;user.email sam@example.com` |
+| **[Tell Git who you are](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config)** | Configure the author name and email address to be used with your commits.Note that Git [strips some characters](http://stackoverflow.com/questions/26159274/is-it-possible-to-have-a-trailing-period-in-user-name-in-git/26219423#26219423)(for example trailing periods) from `user.name`. | `git config --global user.name "Sam Smith"` <br> `git config&#xA0;--global&#xA0;user.email sam@example.com` <br/>|
 | **[Create a new local repository](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-init)** |  | ``` git init ```  |
 | **[Check out a repository](https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-clone)** | Create a working copy of a local repository: |`git clone /path/to/repository`|
 || For a remote server, use: | `git clone username@host:/path/to/repository`|
