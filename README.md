@@ -1,11 +1,12 @@
 Git Commands
 ============
-_A list of my commonly used Git commands_
+A list of my commonly used Git commands_
 
 ### Tell Git Who You Are
+
 | Command | Description |
 | ------- | ----------- |
-|`git config --global user.name "Sam Smith"` <br> `git config --global user.email sam@example.com` <br/> | Configure the author name and email address to be used with your commits.Note that Git [strips some characters](http://stackoverflow.com/questions/26159274/is-it-possible-to-have-a-trailing-period-in-user-name-in-git/26219423#26219423)(for example trailing periods) from `user.name`. |
+| `git config --global user.name "Sam Smith"` <br> `git config --global user.email sam@example.com` <br/> | Configure the author name and email address to be used with your commits.Note that Git [strips some characters](http://stackoverflow.com/questions/26159274/is-it-possible-to-have-a-trailing-period-in-user-name-in-git/26219423#26219423)(for example trailing periods) from `user.name`. |
 | `git remote -v` | List all currently configured remote repositories |
 
 ### Getting & Creating Projects
