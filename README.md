@@ -62,7 +62,7 @@ A list of my commonly used Git commands_
 
 | Command | Description |
 | ------- | ----------- |
-| `git log` | CommitId is the leading characters of the changeset ID, up to 10, but must be unique. Get the ID using |
+| `git log` | CommitId is the leading characters<br> of the changeset ID, up to 10, but must be unique. Get the ID using |
 | `git log --summary` | View changes (detailed) |
 | `git diff` <br> `git diff --base <filename>` <br> `git diff [source branch] [target branch]` | Preview changes before merging |
 
@@ -70,7 +70,7 @@ A list of my commonly used Git commands_
 
 | Command | Description |
 | ------- | ----------- |
-| `git checkout -- <filename>` | If you mess up, you can replace the changes in your working tree with the last content in head: <br> Changes already added to the index, as well as new files, will be kept.|
+| `git checkout -- <filename>` | If you mess up, you can replace the changes in your<br> working tree with the last content in head. Changes already added to the index, as well as new files, will be kept.|
 | `git fetch origin` <br> `git reset --hard origin/master` | Instead, to drop all your local changes and commits, fetch the latest history from the server and point your local master branch at it, do this. |
 
 ### Tag
