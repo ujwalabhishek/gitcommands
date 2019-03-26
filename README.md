@@ -9,7 +9,6 @@ There are several ways to install Git on a Mac. In fact, if you've installed XCo
 ```
 $ git --version
 git version 2.7.0 (Apple Git-66)
-
 ```
 ### Git for Mac Installer
 The easiest way to install Git on a Mac is via the stand-alone installer:
