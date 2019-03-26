@@ -2,6 +2,29 @@ Git Commands
 ============
 A list of my commonly used Git commands
 
+## Install Git
+### install Git on Mac OSX
+There are several ways to install Git on a Mac. In fact, if you've installed XCode (or it's Command Line Tools), Git may already be installed. To find out, open a terminal and enter git --version.
+
+```
+$ git --version
+git version 2.7.0 (Apple Git-66)
+
+```
+### Git for Mac Installer
+The easiest way to install Git on a Mac is via the stand-alone installer:
+
+1. Download the latest [Git for Mac installer](https://sourceforge.net/projects/git-osx-installer/files/).
+
+2. Follow the prompts to install Git.
+
+3. Open a terminal and verify the installation was successful by typing git --version:
+
+```
+$ git --version
+git version 2.9.2
+```
+
 ### Tell Git Who You Are
 
 | Command | Description |
