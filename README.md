@@ -40,7 +40,7 @@ $ git config --global user.name "Emma Paris"
 $ git config --global user.email "eparis@atlassian.com"
 ```
 
-## Install Git On Linux
+### Install Git On Linux
 #### Debian / Ubuntu (apt-get)
 Git packages are available via apt:
 
@@ -60,12 +60,12 @@ git version 2.9.2
 Configure your Git username and email using the following commands, replacing Emma's name with your own. These details will be associated with any commits that you create:
 
 ```
-$ git config --global user.name "Emma Paris"
-$ git config --global user.email "eparis@atlassian.com"
+$ git config --global user.name "Ujwal Abhishek"
+$ git config --global user.email "ujwalabhishek@gmail.com"
 ```
 
 
-####Fedora (dnf/yum)
+#### Fedora (dnf/yum)
 
 Git packages are available via both yum and dnf:
 
