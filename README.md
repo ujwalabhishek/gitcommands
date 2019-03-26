@@ -29,7 +29,7 @@ git version 2.9.2git
 #### Git for Windows stand-alone installer
 1. Download the latest [Git for Windows installer](https://git-for-windows.github.io/).
 
-2.When you've successfully started the installer, you should see the Git Setup wizard screen. Follow the Next and Finish prompts to complete the installation. The default options are pretty sensible for most users.
+2. sWhen you've successfully started the installer, you should see the Git Setup wizard screen. Follow the Next and Finish prompts to complete the installation. The default options are pretty sensible for most users.
 
 3. Open a Command Prompt (or Git Bash if during installation you elected not to use Git from the Windows Command Prompt).
 
