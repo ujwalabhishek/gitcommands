@@ -40,6 +40,56 @@ $ git config --global user.name "Emma Paris"
 $ git config --global user.email "eparis@atlassian.com"
 ```
 
+## Install Git On Linux
+#### Debian / Ubuntu (apt-get)
+Git packages are available via apt:
+
+From your shell, install Git using apt-get:
+
+```
+$ sudo apt-get update
+$ sudo apt-get install git
+```
+Verify the installation was successful by typing git --version:
+
+```
+$ git --version
+git version 2.9.2
+```
+
+Configure your Git username and email using the following commands, replacing Emma's name with your own. These details will be associated with any commits that you create:
+
+```
+$ git config --global user.name "Emma Paris"
+$ git config --global user.email "eparis@atlassian.com"
+```
+
+
+####Fedora (dnf/yum)
+
+Git packages are available via both yum and dnf:
+
+From your shell, install Git using dnf (or yum, on older versions of Fedora):
+
+```
+$ sudo dnf install git
+or
+
+$ sudo yum install git
+```
+Verify the installation was successful by typing git --version:
+```
+$ git --version
+git version 2.9.2
+```
+
+Configure your Git username and email using the following commands, replacing Emma's name with your own. These details will be associated with any commits that you create
+
+```
+$ git config --global user.name "Emma Paris"
+$ git config --global user.email "eparis@atlassian.com"
+```
+
 ### Tell Git Who You Are
 
 | Command | Description |
